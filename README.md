@@ -3,7 +3,8 @@
 A small CRM for a construction company. Managers assign tasks on construction
 sites; executors do them and submit for review.
 
-**Stack:** React + TypeScript + Vite + Tailwind + shadcn/ui, Supabase (Postgres + Auth).
+- **Live app:** https://mini-crm-objects-tasks.netlify.app
+- **Stack:** React + TypeScript + Vite + Tailwind + shadcn/ui, Supabase (Postgres + Auth)
 
 ## Seeded accounts
 
