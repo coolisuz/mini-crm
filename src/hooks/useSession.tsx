@@ -51,7 +51,6 @@ export function SessionProvider({ children }: { children: ReactNode }) {
       setState({ loading: false, session, user: data as AppUser });
     }
 
-    supabase.auth.getSession().then(({ data }) => hydrate(data.session));
     const { data: sub } = supabase.auth.onAuthStateChange((_evt, session) =>
       hydrate(session),
     );
